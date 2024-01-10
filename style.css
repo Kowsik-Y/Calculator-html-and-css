@@ -1,0 +1,21 @@
+.calculator{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 1193px;
+    font-size: larger;
+    font-weight: 800;
+    text-align: end;
+}
+button{
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+    font-weight: 800;
+    
+    text-align: center;
+}
